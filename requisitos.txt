@@ -1,7 +1,7 @@
 REQUISITOS:
 
 concepto general: Una pagina web que ayude a los estudiantes a conseguir referencias de los profesores y de las materias
-de una manera mas facil y rapida, donde halla espacios de discucion y sea anonima
+de una manera mas facil y rapida, donde haya espacios de discucion y sea anonima
 
 requisitos:
 1. pagina de inicio
