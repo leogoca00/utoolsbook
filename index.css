@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 :root{
     --cuteGrey: #CCDBDC;
@@ -15,7 +16,95 @@ body{
     margin: 0;
 }
 nav{
+    background-color: var(--lightCyan);
+    padding-top: 4px;
+    padding-bottom: 4px;
     width: 100%;
-    height: 40px;
+    height: 3rem;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbarLeft{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.navbarRight{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    box-sizing: border-box;
+}
+nav ul li a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--darkBlue);
+    padding: 10px;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    box-sizing: border-box;
+    border: 1px solid var(--darkBlue);
+}
+.container .input{
+    border: 0;
+    outline: none;
+    color: var(--darkBlue);
+}
+.searchWrap{
+    width: 500px;
+    margin: auto ;
+}
+.searchWrap .searchBox{
+    position: relative;
+    height: 2.5rem;
+    width: 500px;
+}
+.searchWrap .searchBox .input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.searchWrap .searchBox .btn.btnCommon .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 103%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 20px;
+}
+.searchWrap .searchBox .btn{
+    right: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.userImageContainer{
+    position: relative;
+    right: 5px;
+    border: 2px solid var(--darkBlue);
+    border-radius: 50%;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-regular{
+    color: var(--darkBlue);
 }
