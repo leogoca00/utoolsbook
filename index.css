@@ -96,7 +96,8 @@ nav ul li a:hover{
 }
 .userImageContainer{
     position: relative;
-    right: 5px;
+    right: 10px;
+    bottom: 8%;
     border: 2px solid var(--darkBlue);
     border-radius: 50%;
     height: 2.2rem;
