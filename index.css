@@ -17,6 +17,7 @@ Genereal
 }
 body{
     margin: 0;
+    
 }
 
 /*
@@ -124,25 +125,21 @@ Home Screen
 
 .containerHomeScreen{
     margin: 8px;
+    margin-top: 16px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
 section{
-    
+    padding: 24px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    height: 315px;
 }
-.f1{
-    background-image: url('./images/nose.jpg');
-    object-fit: cover;
-    object-position: center center;
+.titleContainer{
+    margin-bottom: 4px;
+}
 
-}
-.f2{background-color: #FFF816;}
-.f3{background-color: #8EFF16;}
-.f4{background-color: #16FFAE;}
-.f5{background-color: #1699FF;}
-.f6{background-color: #1624FF;}
-.f7{background-color: #AA16FF;}
-.f8{background-color: #FF16DF;}
-.f9{background-color: #FF1640;}
