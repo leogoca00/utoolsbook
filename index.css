@@ -1,3 +1,6 @@
+/*
+Genereal
+*/
 *{
     padding: 0;
     margin: 0;
@@ -15,6 +18,11 @@
 body{
     margin: 0;
 }
+
+/*
+Navigation Bar
+*/
+
 nav{
     background-color: var(--lightCyan);
     padding-top: 4px;
@@ -109,3 +117,32 @@ nav ul li a:hover{
 .fa-regular{
     color: var(--darkBlue);
 }
+
+/*
+Home Screen
+*/
+
+.containerHomeScreen{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+section{
+    
+}
+.f1{
+    background-image: url('./images/nose.jpg');
+    object-fit: cover;
+    object-position: center center;
+
+}
+.f2{background-color: #FFF816;}
+.f3{background-color: #8EFF16;}
+.f4{background-color: #16FFAE;}
+.f5{background-color: #1699FF;}
+.f6{background-color: #1624FF;}
+.f7{background-color: #AA16FF;}
+.f8{background-color: #FF16DF;}
+.f9{background-color: #FF1640;}
