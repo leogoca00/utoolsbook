@@ -19,6 +19,9 @@ body{
     margin: 0;
     
 }
+.inactive{
+    display: none;
+}
 
 /*
 Navigation Bar
@@ -45,6 +48,9 @@ nav{
     display: flex;
     justify-content: end;
     align-items: flex-end;
+}
+.menuMobile{
+    display: none;
 }
 nav ul{
     display: flex;
@@ -165,5 +171,30 @@ section{
 .btn img{
     width: 25px;
     height: 25px;
+}
+
+/*
+Media Queries
+*/
+
+@media (max-width: 640px) {
+    
+    .navbarLeft ul{
+        display: none;
+    }
+    .searchBox{
+        display: none;
+    }
+    .menuMobile{
+        display: block;
+        width: 20px;
+        height: 20px;
+        color: #212738;
+        margin-left: 10px;
+    }
+    .menuMobile img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
