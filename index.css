@@ -191,21 +191,24 @@ footer{
     margin-top: 8px;
     margin-bottom: 8px;
     gap: 4px;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 100%));
+    grid-template-columns: repeat(auto-fill, 300px);
 }
 .containerGridFooter:nth-child(1){
  color: white;
 }
 
 .containerImagesSocialMedia{
+    display: flex;
     color: white;
-    width: 16px;
-    height: 16px;
+    width: 70px;
+    height: 30px;
+    justify-content: space-between;
 }
-
-
-
-
+.containerImagesSocialMedia img{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
 
 /*
 Media Queries
